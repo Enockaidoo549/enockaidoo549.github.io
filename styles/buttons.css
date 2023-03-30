@@ -1,0 +1,33 @@
+
+button{
+    cursor: pointer;
+    font-weight: bold;
+    width: 134px;
+  }
+  button:hover{
+    opacity: 0.5;
+  }
+  .button-1{
+    background-color: #13183f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    font-size: 17px;
+    z-index: 50;
+  }
+  .button-2{
+    background: linear-gradient(#ff6f48,#f74780);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    font-size: 17px;
+    margin-top: 20px;
+  }.button-3{
+    color: #ffffff;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border: none;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;}

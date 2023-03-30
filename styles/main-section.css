@@ -1,0 +1,110 @@
+
+.first-box{
+    display: flex;
+    width: 570px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .maximize-box{
+    margin-top: 50px;
+    width: 420px;
+    margin-left: 165px;
+  }
+  .description{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 5px;
+
+  }
+  .topic{
+    color: #13183f;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .image-container{
+    position: absolute;
+    height: 800px;
+    width: 618px;
+    top: -90px;
+    right: 1px;
+    overflow: hidden;
+  }
+  .image{
+    height: 800px;
+  }
+  .outer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
+    padding-bottom: 130px;
+    margin-bottom: 0;
+    padding-right: 165px;
+    padding-left: 165px;
+  }
+  .inner-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 56px;
+    margin: 0;
+  }
+  .colored-box
+  {
+    background: linear-gradient(#ff6f48,#f02aa6);
+    border-radius: 15px;
+    padding: 15px 58px 30px 45px;
+    width: 190px;
+  }
+  .colored-box-text{
+    font-style: normal;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 40px;
+    margin: 0;
+    padding-top: 30px;
+  }
+  .icon-container{
+    width: 56px;
+    position: absolute;
+    top: -18px;
+  }
+  .icon{
+    height: 35px;
+  }
+  .description-1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #13183f;
+  }
+  .description-2{
+    font-size: 18px;
+    color: #83869A;
+    line-height: 27px;
+  }
+  .description-3{
+    color: #f74780;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    transition:opacity 0.14;
+    cursor: pointer;
+  }
+  .description-3:hover{
+    opacity: 0.5;
+  }
+  .content-box{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 245px;
+    padding: 19px 32px 52px 15px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);;
+  }

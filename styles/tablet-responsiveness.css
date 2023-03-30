@@ -1,0 +1,56 @@
+
+@media (min-width: 482px) and (max-width: 768px) {
+    /*This is for a tablet or ipad mini*/
+    body{
+      margin: 0;
+    }
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header p{
+      margin-right: 0;
+      padding-right: 0;
+    }
+    .first-box{
+      display: flex;
+      align-items: center;
+    }
+    .image{
+      height: 600px;
+    }
+    .image-container{
+      height: 800px;
+      width: 332px;
+      top: 10px;
+      right: 0;
+    }
+    .outer-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .inner-box{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .content-box {
+       padding-right: 63px;
+    }
+    .maximize-box{
+      margin-left: 40px;
+    }
+    header p{
+      padding-left: 40px;
+    }
+    header{
+      padding-right: 40px;
+    }
+    footer p{
+      padding-left: 40px;
+    }
+    footer{
+      padding-right: 40px;
+    }
+}

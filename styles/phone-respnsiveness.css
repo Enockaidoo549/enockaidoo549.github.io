@@ -1,0 +1,110 @@
+
+@media (min-width: 375px) and (max-width: 481px) {
+    /*This is for a mobile phone*/
+      body{
+        margin-right: 0;
+        margin-left: 0;
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        padding-right: 17px;
+      }
+      header p{
+        padding-left: 20px;
+      }
+      .first-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 366px;
+        margin: 0;
+        padding-left: 20px;
+      }
+      .maximize-box{
+        margin-left: 0;
+        width: 343px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+      }
+      .topic{
+        font-size: 40px;
+
+      }
+      .description{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .outer-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+        border: none;
+        margin-top: 0;
+        padding: 0px;
+        padding-bottom: 80px;
+      }
+      .inner-box{
+        display: grid;
+        grid-template-columns: 343px;
+        width: 343px;
+        row-gap: 40px;
+      }
+      .image-container{
+        height: 50%;
+        width: 70%;
+      }
+      .image {
+       content: url('/assets/image-hero-mobile.png');
+      }
+      .image-container{
+        height: 381px;
+        width: 327px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+        overflow: hidden;
+      }
+      .image{
+        height: 353px;
+        width: 353px;
+      }
+      footer{
+        padding-right: 21px;
+        justify-content: space-between;
+      }
+      footer p{
+        padding-left: 20px;
+      }
+      .colored-box-text{
+        padding-top: 10px;
+
+      }
+      p.description-2 {
+         width: 282px;
+         font-size: 16px;
+      }
+      .content-box{
+        width: 303px;
+        padding: 19px 10px 52px 26px;
+      }
+      .colored-box{
+        padding-right: 8px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        width: 290px;
+        padding-left: 26px;
+        padding-right: 26px;
+      }
+    }
